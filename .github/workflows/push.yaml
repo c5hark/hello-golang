@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: <c5hark/hello-golang
+          images: c5hark/hello-golang
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
